@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333333;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .opciones {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  textarea[readonly] {
+    background-color: #f5f5f5;
+  }
+  
+  .imagen-muneco {
+    text-align: center;
+  }
+  
+  .imagen-muneco img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+  
+  
