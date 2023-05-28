@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function validarTexto(texto) {
-    const regex = /^[a-z]+$/;
+    const regex = /[A-ZáéíóúÁÉÍÓÚ!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
     return regex.test(texto);
   }
 
